@@ -24,10 +24,33 @@
   padding: 0px;
 }
 
-.main-title {
+.main-headline {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 110px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.main-title-headline {
   font-weight: 900;
   font-size: 60px;
   line-height: 80px;
+}
+
+.main-paragraph-headline {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
 }
 
 /* .site-header {
