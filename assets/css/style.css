@@ -53,6 +53,32 @@
   line-height: 65px;
 }
 
+.date-and-time {
+  display: flex;
+  gap: 30px;
+}
+
+.section-date,
+.section-time {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.section-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #424245;
+}
+
+.btn-ticket {
+  padding: 20px 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 /* .site-header {
   display: flex;
   justify-content: space-between;
