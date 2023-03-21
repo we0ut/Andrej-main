@@ -28,6 +28,7 @@
   width: 800px;
   margin: 0 auto;
   margin-top: 110px;
+  margin-bottom: 120px;
 
   display: flex;
   align-items: center;
@@ -79,6 +80,43 @@
   line-height: 24px;
 }
 
+.strengthening-relationships {
+  width: 1280px;
+}
+.strengthening-relationships,
+.event-bio {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-section-flex {
+  display: flex;
+}
+
+.sr-img {
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .images-parent {
+    height: 300px;
+  }
+
+  .sr-img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.buy-button {
+  padding: 20px 32px 20px 32px;
+  border: 0px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
 /* .site-header {
   display: flex;
   justify-content: space-between;
