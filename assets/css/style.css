@@ -80,15 +80,17 @@
   line-height: 24px;
 }
 
-.strengthening-relationships {
-  width: 1280px;
-}
 .strengthening-relationships,
 .event-bio {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.strengthening-relationships {
+  width: 1280px;
+  margin-bottom: 70px;
 }
 
 .container-section-flex {
