@@ -152,6 +152,35 @@
   /* align-self: flex-start; */
 }
 
+.speaker-section {
+  width: 1280px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bcd7ff;
+  margin-bottom: 40px;
+}
+
+.icon {
+  width: 17px;
+  height: 17px;
+}
+
+.speaker-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.speaker-link {
+  display: flex;
+  align-items: center;
+}
+
+.btn-speaker {
+  font-size: 16px;
+  line-height: 21px;
+}
+
 /* .site-header {
   display: flex;
   justify-content: space-between;
